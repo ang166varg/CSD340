@@ -1,0 +1,35 @@
+/* Container */
+#container {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Headings (green background, white text) */
+h1, h2, h3, h4 {
+    background-color: #2E7D32; /* dark green */
+    color: #ffffff;            /* white text */
+    border: 1px solid #A5D6A7; /* light green accent */
+    padding: 10px;
+}
+
+/* Links */
+a {
+    color: #2E7D32;   /* dark green links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #66BB6A;   /* medium green hover */
+}
+
+a:visited {
+    color: #1B5E20;   /* deep green visited */
+}
+
+/* Optional: add spacing */
+ul {
+    margin-bottom: 20px;
+}
