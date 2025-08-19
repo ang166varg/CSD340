@@ -1,0 +1,48 @@
+/* Angela Vargas - Assignment 3.3 - CSD340*/
+
+/* Center the h1 */
+h1 {
+    text-align: center;
+}
+
+/* Side-by-side divs already set to 45% inline */
+
+/* Bottom div */
+#bottom-div {
+    width: 100%;
+    margin-top: 60%;
+    float: right;
+    margin-bottom: 20px;
+}
+
+/* Styling h3 */
+h3 {
+    font-weight: 500;
+}
+
+/* Styling lists */
+ol, ul {
+    font-weight: 300;
+    padding: 10px;
+    list-style-position: inside;
+}
+
+/* Ordered list style */
+ol, ol + h3 {
+    border: 1px solid red;
+    border-radius: 15px;
+}
+
+/* Unordered list style */
+ul, ul + h3 {
+    border: 1px dashed red;
+    border-radius: 15px;
+    list-style-type: upper-roman;
+}
+
+/* Links hover effect */
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
