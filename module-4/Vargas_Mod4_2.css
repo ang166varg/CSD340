@@ -1,0 +1,71 @@
+/* Angela Vargas CSD402 4.2 Assignment */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    color: rgba(0, 100, 0, 1); /* deep green */
+    text-align: center;
+}
+
+#image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 10%;
+}
+
+/* Each book box */
+#image-gallery > div {
+    border: 1px solid rgba(0, 100, 0, 1); /* deep green border */
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Book titles */
+h3 {
+    text-align: center;
+    color: rgba(34, 139, 34, 1); /* forest green */
+    margin-bottom: 10px;
+}
+
+/* Keep images the same size */
+figure img {
+    width: 150px;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+figure {
+    text-align: center;
+    margin: 0;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 0.75em;
+    color: rgba(0, 128, 0, 1); /* medium green */
+    margin-top: 8px;
+}
+
+/* Landing page link on right side */
+a {
+    display: block;
+    margin-top: 20px;
+    text-align: right;  /* moves link to the right side */
+    color: rgba(0, 100, 0, 1);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgba(34, 139, 34, 1);
+}
