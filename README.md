@@ -1,2 +1,2 @@
-# CSD402
-CSD 402 Course Repository
+# CSD340
+CSD 340 Course Repository
