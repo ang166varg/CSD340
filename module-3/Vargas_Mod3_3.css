@@ -40,8 +40,12 @@ ul, ul + h3 {
     list-style-type: upper-roman;
 }
 
-/* Links hover effect */
+/* Landing page link on right side */
 a {
+    display: block;
+    margin-top: 20px;
+    text-align: right;  /* moves link to the right side */
+    color: rgba(0, 100, 0, 1);
     text-decoration: none;
 }
 a:hover {
