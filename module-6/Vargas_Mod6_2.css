@@ -81,25 +81,19 @@ h1 {
 
 /* Footer */
 footer {
-    background-color: #8b3e2f;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    display: flex;
+    justify-content: flex-end; /* moves link to the right */
+    padding: 10px 20px;
+    background-color: #7B3F3F; /* same as header color */
 }
 
-footer p {
-    color: #fdfaf6;
-    font-weight: 400;
-    float: right;
-    padding-right: 10px;
-    font-style: italic;
-}
-
-footer a {
+footer .back-link a {
+    color: white; /* makes it readable */
     text-decoration: none;
-    color: #fdfaf6;
+    font-weight: bold;
 }
 
-footer a:hover {
+
+footer .back-link a:hover {
     text-decoration: underline;
 }
