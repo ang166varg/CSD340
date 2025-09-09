@@ -102,8 +102,8 @@ header h1 {
 }
 
 #movies td {
-  border: 1px solid #eee;
-  padding: 18px 16px;
+  border: 1px solid #ddd;
+  padding: 8px;
   vertical-align: top;
   background: #fff;
 }
