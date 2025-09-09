@@ -134,9 +134,8 @@ footer .copyright { float: left; }
 footer .back { float: right; color: #fff; text-decoration: none; }
 
 @media (max-width: 800px) {
-  header h1 { font-size: 28px; }
-  .card { width: 100%; }
-  nav ul { gap: 12px; }
-  #movies td { padding: 12px; }
-  .container { margin-bottom: 180px; }
+    header h1 { font-size: 28px; }
+    .card { width: 100%; }
+    #movies td { padding: 12px; }
+    .container { margin: 2% 5% 100px 5%; }
 }
