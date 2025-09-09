@@ -52,7 +52,7 @@ nav a {
 
 /* olive divider */
 .divider {
-  height: 6px;
+  height: 12px; 
   background-color: #8a8a5c;
   width: 100%;
 }
