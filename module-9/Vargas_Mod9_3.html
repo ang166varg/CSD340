@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    Angela Vargas CSD340 9.3 Assignment: JavaScript Exercise, Part 1
+    Movie Dialogue Source (visible on page too): https://www.dailyscript.com/scripts/devils_advocate.pdf
+-->
+<head>
+    <meta charset="UTF-8">
+    <title>CSD 340 Web Development with HTML and CSS - Movie Dialogue from The Devil's Advocate</title>
+    <script>
+        // Declare variables for the span replacements
+        var firstVariableValue = "names";
+        var secondVariableValue = "vanity";
+        var thirdVariableValue = "winner";
+        var fourthVariableValue = "instincts";
+    </script>
+</head>
+
+<body>
+    <h1>Assignment 9.3: JavaScript - Part 1</h1>
+
+    <p><em>Movie Dialogue: The Devil's Advocate (1997)</em></p>
+
+    <p>
+        <strong>Kevin:</strong> Who are you? <br>
+        <strong>Milton:</strong> I go by many <span id="names">_________</span>. <br>
+        <strong>Kevin:</strong> Satan. Mary Ann, Barzoon, Weaver... <br>
+        <strong>Milton:</strong> You're not listening. Blaming me for Mary Ann? That’s on you. You could have saved her 
+        at any time. She wanted love, but you knew it wouldn’t work out. The moment you arrived here, you were already 
+        looking for a better deal.
+    </p>
+
+    <p>
+        <strong>Kevin:</strong> That’s my job — that’s what I do. <br>
+        <strong>Milton:</strong> Exactly. And that’s why <span id="vanity">_________</span> is my favorite sin. 
+        Self-love, pride, ambition — the easiest, most addictive drug. Better to reign in Hell than serve in Heaven.
+    </p>
+
+    <p>
+        <strong>Milton:</strong> No, I don’t judge anyone. As far as I’m concerned, everyone’s a <span id="winner">_________</span>. 
+        God’s the trickster. He gives man this extraordinary gift — <span id="instincts">_________</span> — and then writes rules 
+        that forbid their use. Look but don’t touch, taste but don’t swallow — while you struggle, he laughs. Worship that? Never.
+    </p>
+
+    <p>
+        <!-- Buttons to fill in the blanks -->
+        <button type="button" onclick="document.getElementById('names').innerHTML = firstVariableValue">Reveal: names</button><br><br>
+        <button type="button" onclick="document.getElementById('vanity').innerHTML = secondVariableValue">Reveal: vanity</button><br><br>
+        <button type="button" onclick="document.getElementById('winner').innerHTML = thirdVariableValue">Reveal: winner</button><br><br>
+        <button type="button" onclick="document.getElementById('instincts').innerHTML = fourthVariableValue">Reveal: instincts</button>
+    </p>
+
+    <hr>
+    <footer>
+        <p style="font-size:small;">
+            Movie dialogue excerpted from <em>The Devil's Advocate</em> (1997). Source: 
+            <a href="https://www.dailyscript.com/scripts/devils_advocate.pdf" target="_blank" rel="noopener noreferrer">Daily Script</a>
+        </p>
+		<p style="font-size:small;">
+			<a class="back" href="../index.html">Back to Landing Page</a>
+		</p>		
+    </footer>
+</body>
+</html>
