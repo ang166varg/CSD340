@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <link rel="stylesheet" href="Vargas_Mod12_2.css">
+</head>
+<body>
+    <!-- Angela Vargas - Assignment 12.2 -->
+    <div id="container">
+        <h1>Assignment 12.2: JavaScript - Part 4</h1>
+
+        <h3>Top 10 Favorite Books</h3>
+
+        <!-- Buttons -->
+        <div class="button-container">
+            <button onclick="topToBottom()">Top to Bottom</button>
+            <button onclick="bottomToTop()">Bottom to Top</button>
+        </div>
+
+        <!-- Where the book list will display -->
+        <div id="bookList"></div>
+
+        <br><br>
+        <a href="/CSD340/index.html">Back to Landing Page</a>
+    </div>
+
+    <script>
+        // Array of favorite books
+        const books = [
+            "The Body - Stephen King",
+            "Elevation - Stephen King",
+            "Pet Semetary - Stephen King",
+            "Portrait of Dorian Gray - Oscar Wilde",
+            "The Shining - Stephen King",
+            "The Handmaid's Tale - Margaret Atwood",
+            "Kindness Goes Unpunished - Craig Johnson",
+            "Return of the King - J.R.R. Tolkien",
+            "Harry Potter: Order of the Phoenix - J.K. Rowling",
+            "It - Stephen King"
+        ];
+
+        // Display books top-to-bottom
+        function topToBottom() {
+            let list = "<ol>";
+            for (let i = 0; i < books.length; i++) {
+                list += "<li>" + books[i] + "</li>";
+            }
+            list += "</ol>";
+            document.getElementById("bookList").innerHTML = list;
+        }
+
+        // Display books bottom-to-top
+        function bottomToTop() {
+            let list = "<ol>";
+            for (let i = books.length - 1; i >= 0; i--) {
+                list += "<li>" + books[i] + "</li>";
+            }
+            list += "</ol>";
+            document.getElementById("bookList").innerHTML = list;
+        }
+    </script>
+</body>
+</html>
