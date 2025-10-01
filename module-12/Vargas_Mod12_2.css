@@ -3,30 +3,30 @@
 /* Page font */
 body {
     font-family: "Times New Roman", Times, serif;
-    font-weight: normal; /* normal text weight */
+    font-weight: normal; 
 }
 
 /* Center h1 */
 h1 {
     text-align: center;
-    font-weight: bold; /* keep header bold only */
+    font-weight: bold; 
 }
 
 /* Flex container for boxes */
 .flex-container {
     display: flex;
-    justify-content: space-between; /* push boxes to left and right edges */
-    margin: 20px 10px;              /* keeps some space from page edges */
-    flex-wrap: wrap;                 /* allow wrapping on small screens */
+    justify-content: space-between; 
+    margin: 20px 10px;              
+    flex-wrap: wrap;                 
 }
 
 .box {
     padding: 15px;
     border-radius: 15px;
     font-size: 15px;
-    width: 45%;                      /* makes boxes roughly 45% width */
-    max-width: none;                 /* remove 600px limit */
-    box-sizing: border-box;          /* include padding/border in width */
+    width: 45%;                      
+    max-width: none;                 
+    box-sizing: border-box;        
 }
 /* Solid red border for left box (like ordered list style) */
 .solid-box {
@@ -40,19 +40,19 @@ h1 {
 
 /* Styling h3 inside boxes */
 h3 {
-    font-weight: 500; /* slightly lighter than bold */
+    font-weight: 500; 
 }
 
 /* Lists inside boxes */
 ol, ul {
-    font-weight: 300;          /* lighter list font */
+    font-weight: 300;          
     padding: 10px;
     list-style-position: inside;
 }
 
 /* Ordered list style */
 ol, ol + h3 {
-    border-radius: 15px;        /* rounded corners like 3.3 */
+    border-radius: 15px;       
 }
 
 /* Unordered list style */
@@ -77,12 +77,12 @@ hr {
     margin: 10px 0;
 }
 
-/* Link styling like 3.3 */
+
 a {
     display: block;
     margin-top: 20px;
-    text-align: right;          /* moves link to the right */
-    color: rgba(0, 100, 0, 1);  /* green color like 3.3 */
+    text-align: right;          
+    color: rgba(0, 100, 0, 1);  
     text-decoration: none;
     font-weight: normal;
 }
@@ -94,6 +94,5 @@ a:hover {
 .section-line {
     border: none;
     border-top: 2px solid #555; /* grey line */
-    width: 100%;                 /* full width under heading */
-    margin: 10px 0 20px 0;       /* spacing above and below line */
-}
+    width: 100%;                 
+    margin: 10px 0 20px 0;      
